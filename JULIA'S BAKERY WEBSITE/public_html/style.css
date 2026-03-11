@@ -1,0 +1,178 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 22 Sep 2022, 12:07:55
+    Author     : julia
+*/
+ .topnav{
+            background-color: pink;
+            overflow: hidden;
+            } 
+            .topnav a {
+             float: left;
+             display:block;
+             color: plum;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+             font-size: 18px;
+             
+            }
+            
+            .topnav a:hover{
+                background-color:purple;
+                color:purple;
+            }
+            .topnav a.active{
+                background-color:blueviolet;
+                color:blueviolet;
+                
+            }
+            .topnav .icon{
+                display: none
+            }
+            .footer{
+                position:fixed;
+                left:0;
+                bottom:0;
+                width:100%;
+                background-color: purple;
+                color:white;
+                text-align: center;
+            
+           }
+           *{
+            box-sizing: border-box;
+           }
+           *{
+             box-sizing: border-box  
+           }
+                
+           body{
+               background-color: black;
+               padding: 20px;
+               font-family: Arial;
+               
+           }   
+           .main{
+           max-width: 100px;
+           margin:auto;
+           }
+           h1{
+               font-size: 50px;
+               word-break: break-all;
+           }
+           .row{
+               margin: 8px-16px;
+           }
+           .row,
+           .row > .column{
+               padding: 8px;
+           }
+           *{
+               box-sizing: border-box;
+               
+           }
+           body{
+               background-color: darksalmon;
+               padding: 20px;
+               font-family: Arial;
+               
+           } 
+           .main {
+               max-width: 1000px;
+               margin: auto;    
+           }
+           h1{
+               font-size: 50px;
+               word-break: break-all;
+               
+           }
+           .row{
+               margin: 8px - 16px;
+           }
+           .row,
+           .row > .column{
+               padding: 8px;
+           }
+           .column{
+               float: left;
+               width: 25%;
+               
+           }
+           .row:after{
+               content: "";
+               display: table;
+               clear: both;
+           }
+           .content{
+               background-color: purple;
+               padding: 10px;
+               
+           }
+           @media only screen and (max-width:465 px){
+               
+           }
+           
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: "montserrat",sans-serif;
+     box-sizing: border-box;
+ }
+ 
+ .gallery{
+ width: 100%;
+ padding: 60px 0;
+ background: #f1f1f1;
+ }
+ 
+ .inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+ }
+ 
+ .gallery h1{
+ text-align: center;
+ text-transform: uppercase;
+ color: #333;
+ }
+ 
+ .border{
+ width: 180px;
+ height: 4px;
+ background: #333;
+ margin: 60px auto;
+ }
+ 
+ .gallery.gallery{
+ display: flex;
+ flex-wrap: wrap-reverse;
+ justify-content: center;
+ }
+ 
+ .gallery.image{
+ flex: 25%;
+ overflow: hidden;
+ cursor: pointer;
+ }
+ 
+ .gallery.image img{
+ width: 100%;
+ height: 100%;
+ transition: 0.4s;
+ }
+ 
+ .gallery.image:hover img{
+ transform: scale(1.4)rotate(15deg);
+ }
+
+ 
+ 
+ 
+ 
+
